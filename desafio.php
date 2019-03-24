@@ -59,7 +59,8 @@
                 <div class="page-header float-right">
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
-                            <li class="active">Dashboard</li>
+                        <li><a href="#">Dashboard</a></li>
+                            <li class="active">Desafio</li>
                         </ol>
                     </div>
                 </div>
@@ -69,59 +70,48 @@
         <div class="content mt-3">
             <div class="animated fadeIn">
                 <div class="row">
-                    <div class="col-8 col-sm-8	col-md-8 col-lg-8	col-xl-8">
-                        <div class="alert  alert-warning alert-dismissible fade show" role="alert">
-                            <h4 class="alert-heading"><i class="fa fa-warning"></i></h4>
-                            <p>
-                            Você <strong style="color:#5e305f;">ainda não possui recomendações</strong>, converse com nossas <strong style="color:#5e305f;">mentoras</strong> para iniciar sua jornada de empoderamento.
-                            </p>
-                            <hr>
-                            <p class="mb-0">A Sofia vai te mentorar agora, clique no <strong style="color:#5e305f;">botão abaixo</strong>.</p>
+                    <div class="col-md-4">
+                        <div class="feed-box text-center">
+                            <section class="card">
+                                <div class="card-body">
+                                    <a href="mentoria.php">
+                                        <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin1.jpg">
+                                        <h2>Etapa 1</h2>
+                                        <p>Artista</p>
+                                    </a>
+                                </div>
+                            </section>
                         </div>
                     </div>
-                    <div class="col-4 col-sm-4	col-md-4 col-lg-4	col-xl-4">
-                        <section class="card">
-                            <div class="twt-feed blue-bg">
-                                <div class="corner-ribon black-ribon">
-                                </div>
-                                <div class="media">
-                                    <a href="#">
-                                        <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/sofia.png">
+                    <div class="col-md-4">
+                        <div class="feed-box text-center">
+                            <section class="card">
+                                <div class="card-body">
+                                    <a href="mentoria.php">
+                                        <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin1.jpg">
+                                        <h2>Etapa 2</h2>
+                                        <p>Compositor</p>
                                     </a>
-                                    <div class="media-body">
-                                        <h2 class="text-white display-6">Sofia Menezes</h2>
-                                        <p class="text-light">Compositora e Violinista<br>42 anos</p>
-                                        <button type="button" class="btn btn-dark" style="border-radius: 30px;color: #ee9509;">Conheça o que motiva a Sofia</button>
-                                    </div>
                                 </div>
-                            </div>
-                            <div class="weather-category twt-category">
-                                <ul>
-                                    <li class="active">
-                                        <h5>750</h5>
-                                        Pessoas<br>Mentoradas
-                                    </li>
-                                    <li>
-                                        <h5>865</h5>
-                                        Projetos<br>Envolvidos
-                                    </li>
-                                    <li>
-                                        <h5>3645</h5>
-                                        Recomendações<br>Aplicadas
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="twt-write col-sm-12">
-                                <textarea placeholder="Mande um feedback sobre a Sofia!" rows="1" class="form-control t-text-area"></textarea>
-                            </div>
-                            <footer class="twt-footer">
-                            <button type="button" class="btn btn-dark" style="border-radius: 30px;color: #ee9509; background-color: #5e305f;">Enviar feedback</button>
-                            </footer>
-                        </section>
+                            </section>
+                        </div>
                     </div>
-                </div><!-- .row -->
-            </div><!-- .animated -->
-        </div><!-- .content -->
+                    <div class="col-md-4">
+                        <div class="feed-box text-center">
+                            <section class="card">
+                                <div class="card-body">
+                                    <a href="mentoria.php">
+                                        <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin1.jpg">
+                                        <h2>Etapa 3</h2>
+                                        <p>Produtor</p>
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- .content -->
     </div><!-- /#right-panel -->
 
     <!-- Right Panel -->
@@ -155,12 +145,6 @@
                 normalizeFunction: 'polynomial'
             });
         })(jQuery);
-    </script>
-
-    <script src="https://static.zenvia.com/embed/js/zenvia-chat.min.js"></script>
-    <script>
-        var chat = new ZenviaChat('f9c8cdc4d0afa1dabd9e88eca13c3912')
-            .embedded('button').build();
     </script>
 
 </body>
